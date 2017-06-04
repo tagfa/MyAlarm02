@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity
         final PendingIntent pendingIntent1 = PendingIntent.getActivity(this,0,intent1,0);
 
         final AlarmManager alarmManager = (AlarmManager)getSystemService(ALARM_SERVICE);
-        fragmentManager = getFragmentManager();
+        fragmentManager = getFragmentManager();     
 
         textView = (TextView)findViewById(R.id.textView);
 
